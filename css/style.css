@@ -880,12 +880,13 @@ h5,
   background-position: center center;
 }
 
+.team_hero {
 
-.team_hero{
-  
-  background-position-y:-50px;
+  background-position-y: -50px;
   /* background-position-x:-25px; */
 }
+
+
 
 .hero,
 .hero>.container>.row {
