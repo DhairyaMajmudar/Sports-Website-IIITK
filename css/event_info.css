@@ -75,6 +75,34 @@
     transform: translate(-320px, -300px);
 }
 
+.view_flex{
+    display: flex;
+    justify-content: center;
+    transform: translateY(-30px);
+}
+
+.view_gal{
+    background-color: white;
+    color: transparent;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    padding: 0.5rem 1.5rem;
+    border-radius: 5px;
+}
+
+.view_gal a{
+    color: #222831;
+    font-size: 22px;
+}
+
+.view_gal a:hover{
+    color: #222831a0;
+    font-size: 23px;
+    transition: 0.3s ease;
+}
+
+
 @media screen and (max-width:450px) {
 
     .WRAPPER {
