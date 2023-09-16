@@ -169,8 +169,8 @@ h4 {
 }
 
 .faculty_img {
-    height: 180px;
-    width: 180px;
+    height: 220px;
+    width: 220px;
 }
 
 .faculty_card {
@@ -273,4 +273,57 @@ h4 {
     color: white;
     font-weight: bolder;
 }
+
+
+/* *************************FOOTER CSS ********************************/
+
+
+.colmn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .lastpart{
+    background: #1a1e25 ;
+    padding-top: 60px;
+    padding-bottom: 30px;
+  }
+  .lastpart div{
+    text-align: center;
+  }
+  .subpart2{
+    margin-left: 250px;
+    margin-right: 200px;
+  }
+  .subpart1 li{
+    margin-bottom: 5px;
+  }
+  .lastpart div h3{
+    font-size: 20px;
+    font-weight: 300px;
+  }
+  form input{
+    width: 400px;
+    height: 45px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    outline: none;
+    border: none;
+  }
+  form button{
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  .text{
+    text-align: center;
+    margin-top: 50px;
+  }
 

@@ -1049,7 +1049,7 @@ h5,
 }
 
 .latest-news {
-  padding: 100px 0;
+  padding-top: 100px;
 }
 
 .latest-news .post-entry {
@@ -1231,9 +1231,9 @@ h5,
   font-size: 18px;
 }
 
-.widget-next-match {
+/* .widget-next-match {
   border: 1px solid rgba(255, 255, 255, 0.1);
-}
+} */
 
 .widget-vs {
   width: 100%;
@@ -1309,7 +1309,11 @@ h5,
 }
 
 .custom-table {
-  margin-bottom: 0;
+  display: table;
+  border: 3px solid yellow;
+  box-sizing: border-box;
+  /* margin-right: 40px !important; */
+  width: 50%;
 }
 
 .custom-table thead tr th {
@@ -1320,7 +1324,7 @@ h5,
 
 .custom-table tbody tr td {
   border: none;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid yellow
 }
 
 .custom-table tbody tr td strong {
@@ -1332,6 +1336,7 @@ h5,
 }
 
 .footer-section {
+  width: 100%;
   padding: 70px 0;
   font-size: 14px;
   color: rgba(255, 255, 255, 0.5);
@@ -1625,6 +1630,38 @@ h5,
   padding-left: 100px;
 }
 
+.table td {
+  vertical-align: middle;
+}
+
+.prize1 {
+  /* margin-left: 12rem; */
+  margin-top: 40px;
+}
+
+.prizes {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  column-gap: 20px;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+
+.prize-table {
+  display: table;
+  border: 3px solid yellow;
+  box-sizing: border-box;
+  /* width: 100%; */
+}
+
+.prize-table thead tr th {
+  background: #ee1e46;
+  border: none;
+  color: #fff;
+  /* text-align: center; */
+}
+
 .video-media img {
   width: 20%;
 }
@@ -1637,4 +1674,59 @@ h5,
 .msg_button:hover {
   background-color: transparent;
   border: 1px solid white;
+}
+.prize1{
+  /* margin-left: 12rem; */
+  margin-top: 40px;
+}
+
+/* *************************FOOTER CSS ********************************/
+
+.colmn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.lastpart{
+  background: #1a1e25 ;
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+.lastpart div{
+  text-align: center;
+}
+.subpart2{
+  margin-left: 250px;
+  margin-right: 200px;
+}
+.subpart1 li{
+  margin-bottom: 5px;
+}
+.lastpart div h3{
+  font-size: 20px;
+  font-weight: 300px;
+}
+form input{
+  width: 400px;
+  height: 45px;
+  border-radius: 4px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  outline: none;
+  border: none;
+}
+form button{
+  background: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  border-radius: 30px;
+  padding: 10px 30px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.text{
+  text-align: center;
+  margin-top: 50px;
 }
