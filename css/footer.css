@@ -7,6 +7,29 @@
 }
 
 
-.para{
-    transform:translatex(-40px) ;
+.para {
+    transform: translatex(-40px);
+}
+
+@media screen and (max-width:450px) {
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    input {
+        display: none;
+    }
+
+    .button_submit {
+        display: none;
+    }
+
+    .Newsletter {
+        display: none;
+    }
+
+    .para {
+        transform: translatex(0px);
+    }
 }
