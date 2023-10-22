@@ -1310,7 +1310,7 @@ h5,
 
 .custom-table {
   display: table;
-  border: 3px solid yellow;
+  border: 3px solid white;
   box-sizing: border-box;
   /* margin-right: 40px !important; */
   width: 50%;
@@ -1324,7 +1324,7 @@ h5,
 
 .custom-table tbody tr td {
   border: none;
-  border-bottom: 1px solid yellow
+  border-bottom: 1px solid white
 }
 
 .custom-table tbody tr td strong {
@@ -1650,7 +1650,7 @@ h5,
 
 .prize-table {
   display: table;
-  border: 3px solid yellow;
+  border: 3px solid white;
   box-sizing: border-box;
   /* width: 100%; */
 }
